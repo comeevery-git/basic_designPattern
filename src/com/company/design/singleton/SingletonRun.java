@@ -1,10 +1,6 @@
-package com.company.design;
+package com.company.design.singleton;
 
-import com.company.design.singleton.AClazz;
-import com.company.design.singleton.BClazz;
-import com.company.design.singleton.SocketClient;
-
-public class Main {
+public class SingletonRun {
 
     public static void main(String[] args) {
         // singleton pattern
@@ -14,8 +10,6 @@ public class Main {
         SocketClient bClient = bClazz.getSocketClient();
         System.out.println("두 개의 객체가 동일한가 ?");
         System.out.println(aClient.equals(bClient));
-
-
 
     }
 }

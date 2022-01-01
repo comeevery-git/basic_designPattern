@@ -24,10 +24,10 @@ public class User {
 
     // run
     public static void main(String[] args) {
-        User user = new User.builder()
-                .name("강수희")
-                .age(20)
-                .build();
+//        User user = new User.builder()
+//                .name("강수희")
+//                .age(20)
+//                .build();
 
     }
 

@@ -30,7 +30,10 @@ public class Immutability {
      */
     public static void main(String[] args) {
         String name = "강수희";
+        System.out.println(name.hashCode());
+
         name = "New"; // new String
+        System.out.println(name.hashCode());
 
         // String의 toCharArray 복사 전달
         name.toCharArray();
